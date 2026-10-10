@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>Retorno do TikTok</title></head>
+<body>
+<p>Autorização recebida. Voltando para a plataforma local...</p>
+<script>
+  var q = window.location.search || "";
+  window.location.replace("http://localhost:8787/api/connectors/tiktok/callback" + q);
+</script>
+</body>
+</html>
